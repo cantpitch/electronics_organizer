@@ -1,4 +1,5 @@
 capacitance,unit,cap_code,voltage,tolerance,temp_min,temp_max
+4.7,pF,4R7,100 V,10,-55,125
 10,pF,100,50 V,10,-55,125
 20,pF,200,50 V,10,-55,125
 47,pF,470,50 V,10,-55,125
@@ -6,6 +7,7 @@ capacitance,unit,cap_code,voltage,tolerance,temp_min,temp_max
 150,pF,151,50 V,10,-55,125
 220,pF,221,50 V,10,-55,125
 330,pF,331,50 V,10,-55,125
+390,pf,391,250 V,5,-55,125
 470,pF,471,50 V,10,-55,125
 680,pF,681,50 V,10,-55,125
 1,nF,102,50 V,10,-55,125

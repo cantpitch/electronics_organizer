@@ -1,5 +1,4 @@
-// Helper function to render a resistor with dynamic color bands
-// This uses the SVG resistor images with color overlays
+#import "util.typ": title_case
 
 #let resistor_colors_by_value = (
   "black",
@@ -59,8 +58,6 @@
   band5: (x: 140, y: 20, width: 7, height: 40),
 )
 
-
-#let title_case(str) = { return upper(str.first()) + str.slice(1) }
 
 #let draw_resistor_4band(
   band1_color: "brown",

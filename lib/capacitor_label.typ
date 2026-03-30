@@ -23,7 +23,7 @@
   }
 
   let cap_image = if mode == "electrolytic" {
-    "../images/ElectroliticCap.png"
+    "../images/electrolytic_cap.png"
   } else if mode == "ceramic" {
     "../images/blank_ceramic_cap.png"
   } else {
