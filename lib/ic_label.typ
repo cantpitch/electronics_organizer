@@ -6,7 +6,7 @@
       rows: (0.62cm, 1.7cm, 0.38cm, 1.8cm),
       stroke: (thickness: 1pt),
       // name of the component
-      grid.cell(align: center + horizon, fill: rgb("#bc0013"), colspan: 2)[#text(
+      grid.cell(align: center + horizon, fill: rgb("#6666ff"), colspan: 2)[#text(
         size: 16pt,
         weight: "bold",
         fill: white,
