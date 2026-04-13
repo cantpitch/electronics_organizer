@@ -1,0 +1,6 @@
+color,size,Vlow,Vhigh,If,example,diagram
+white,5mm,2.8,3.6,0.020,leds/clear.png,leds/Mono LED 5mm.png
+yellow,5mm,1.8,2.3,0.020,leds/yellow.png,leds/Mono LED 5mm.png
+red,5mm,1.8,2.3,0.020,leds/red.png,leds/Mono LED 5mm.png
+green,5mm,2.8,3.6,0.020,leds/green.png,leds/Mono LED 5mm.png
+blue,5mm,2.8,3.6,0.020,leds/blue.png,leds/Mono LED 5mm.png
