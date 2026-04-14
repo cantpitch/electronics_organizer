@@ -1,0 +1,13 @@
+component,channel,schematic,drawing,desc_pt,description,qrcode
+2N7000,N,N-Channel MOSFET S_G_D.png,S_G_D.png,8,Enhancement Mode MOSFET,2N7000.png
+MPF102,N,N-Channel JFET DSG.png,D_S_G.png,8,JFET VHF Amplifier,MPF102.png
+IRFZ44N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRFZ44N.png
+IRF510N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF510N.png
+IRF520N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF520N.png
+IRF530N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF530N.png
+IRF540N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF540N.png
+IRF640N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF640N.png
+IRF740N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF740N.png
+IRF840N,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF840N.png
+IRF3205,N,N-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF3205.png
+IRF9540N,P,P-Channel MOSFET G_D_S.png,T0-220 G_D_S.png,8,Power MOSFET,IRF9540N.png

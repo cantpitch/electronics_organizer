@@ -31,21 +31,22 @@
       grid.cell(
         align: left + horizon,
         box(inset: (left: 1pt, top: 2pt, bottom: 2pt))[#image(
-          "../images/examples/3296w.jpg",
+          if csv_row.model == "3296W" { "../images/examples/3296w.jpg" } else { "../images/examples/6mmtrimpot.jpg" },
           width: 2.2cm,
           fit: "contain",
         )],
       ),
 
-      grid.cell(align: center + horizon, text(weight: "bold", size: 12pt)[3296 Trimpot\
-      ]),
+      grid.cell(align: center + horizon, text(weight: "bold", size: 12pt, if csv_row.model == "3296W" {
+        "3296 Trimpot"
+      } else { "6mm Trimpot" })),
 
       grid.hline(y: 2, start: 0, end: 2, stroke: rgb("#bbbbbb")),
 
       grid.cell(inset: 3pt, colspan: 2, fill: rgb("#eeeeee"), text(size: 8pt)[
-        *Resistance =* #resistor_title(csv_row.resistance)\
-        *Tolerance =* #sym.plus.minus#csv_row.tolerance%\
-        *Code =* #csv_row.code
+        Resistance = *#resistor_title(csv_row.resistance)*\
+        Tolerance = *#sym.plus.minus#csv_row.tolerance%*\
+        Code = *#csv_row.code* #sym.space #sym.space #sym.space  Turns = *#csv_row.turns*
       ]),
     )
   ]
