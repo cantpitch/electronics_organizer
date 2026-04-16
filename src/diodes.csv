@@ -1,0 +1,4 @@
+type,diagram,name,desc_pt,desc,IfAV,Io,Ifsm,Vrrm,Vr,fM,Trr,Ir,Pmax
+smallsignal,glass-diode.jpg,1N4148,8,Small Signal Diode,150 mA,,2 A,100 V,75 V,100 MHz,4 ns,5 uA,500 mW
+smallsignal,glass-diode.jpg,1N914,8,Small Signal Diode,200 mA,,1 A,100V,75 V,100 MHz,4 ns,5 uA,500 mW
+smallsignal,bat-diode.jpg,BAT43,8,Small Signal Schottky Diode,200 mA,,4 A,30 V,30 V,,5 ns,0.5 uA,200 mW
