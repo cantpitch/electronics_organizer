@@ -17,13 +17,19 @@
   let cap_type = if mode == "electrolytic" {
     "Electrolytic Capacitor"
   } else if mode == "ceramic" {
-    "Multilayer Monolithic Ceramic Capacitor"
+    if csv_row.material == "ceramic" {
+      "Multilayer Monolithic Ceramic Capacitor"
+    } else if csv_row.material == "mica" {
+      "Mica Capacitor"
+    }
   } else {
     "Capacitor"
   }
 
   let cap_image = if mode == "electrolytic" {
     "../images/electrolytic_cap.png"
+  } else if csv_row.material == "mica" {
+    "../images/mica_cap.jpg"
   } else if mode == "ceramic" {
     "../images/blank_ceramic_cap.png"
   } else {
