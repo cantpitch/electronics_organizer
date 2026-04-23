@@ -21,8 +21,8 @@
     "../images/examples/res_net/9SIP.jpg"
   } else if csv_row.pins == "8" {
     "../images/examples/res_net/8SIP.jpg"
-  } else {
-    "../images/examples/res_net/default.png"
+  } else if csv_row.pins == "7" {
+    "../images/examples/res_net/7SIP.png"
   }
 
   grid.cell[
